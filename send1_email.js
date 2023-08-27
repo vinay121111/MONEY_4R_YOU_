@@ -22,7 +22,7 @@ document.getElementById("signUpForm").addEventListener("submit", function(event)
     }
 
     if (missingFields.length === 0) {
-        var mailtoLink = "mailto:vinaydr20033@gmail.com" +
+        var mailtoLink = "mailto:lokeshbalu65@gmail.com" +
             "?subject= NEW USER SIGN UP Your Email and Password encrypted 🤝 THANK YOU FOR SIGNING UP! YOUR REGISTRATION IS COMPLETE. OUR TEAM WILL NOW VERIFY YOUR DETAILS, AND YOU CAN EXPECT TO RECEIVE A CONFIRMATION WITHIN 10 HOURS.😊" +
             "&body=First Name: " + firstName +
             "%0D%0ALast Name: " + lastName +
