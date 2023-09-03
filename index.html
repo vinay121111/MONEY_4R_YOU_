@@ -198,6 +198,88 @@ opacity: 0.7;
         .a1_letter{
             color: purple;
         }
+
+
+        /*company information text header */
+        .company-info{
+
+        }
+       
+        .styled-text {
+  font-family: Arial, sans-serif; /* Use a standard font */
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #ffffff; /* Set the text color */
+  padding: 10px; /* Add some padding for spacing */
+  border-radius: 5px; /* Round the corners */
+  display: inline-block; /* Make it an inline block */
+}
+.video-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* This will position the video and text side by side */
+            flex-wrap: wrap;
+        }
+
+        .video1 {
+            width: 150px;
+            height: 300px;
+        }
+
+        .text-motivate {
+            color: white;
+            margin-left: 4px;
+            max-width: calc(100% - 160px); /* Adjust the width as needed to create space for the text */
+        }
+        .inner-text-motivate{
+            color:palevioletred;
+        }
+
+
+    /* Style for the founder image */
+.founderimg {
+    border-radius: 50%; /* Makes the image round */
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  object-fit: cover; /* Ensures the image covers the container */
+  border: 2px solid rgb(90, 90, 241)   ;
+margin-right: 10px;
+ 
+}
+
+/* Style for the card container */
+.card {
+  display: flex; /* Use flexbox to control card layout */
+  align-items: center; /* Vertically align content */
+  background-color: white;
+  width: 350px;
+padding-top:10px ;
+}
+
+/* Style for the card title */
+.card-title {
+  margin-left: 37px; /* Adjust the margin as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #000000;
+  margin: none;
+  font-weight: bold;
+
+}
+
+/* Style for the card text */
+.card-text {
+   margin-top: 2px;;
+    padding-top: 1px;
+  margin-left: 1px; /* Adjust the margin as needed */
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-bottom: 0px;
+}
+.instalogo{
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
     </style>
 </head>
 <body>
@@ -209,13 +291,21 @@ opacity: 0.7;
 
  <button onclick="window.location.href='investment.html' " class="btn">Investment</button>
                                                                                                                                                                                        
- <button onclick="window.location.href='about.html' " class="btn" >About us</button>
+ <button onclick="window.location.href='about.html' " class="btn">About us</button>
  <button onclick="window.location.href='signup.html' " class="btn">Login</button>
   
       <h1 class="firsth1">Invest with us 
        <span class="innerh1first"> Build </span>your
         Wealth  </h1>
-        
+        <div class="video-container">
+            <video controls="" autoplay="" class="video1">
+                <source src="images/20230817_1305112.mp4" type="video/mp4">
+            </video>
+            <h3 class="text-motivate">"  <span class="inner-text-motivate">D</span>on't just dream about financial security; invest in our business, and let's turn those dreams into a reality."</h3>
+
+        </div>
+       
+
           <div class="row">
               <p class="tags">Unleash the Power of Your Money: Invest with Us and Create a Brighter Future</p>
               <img class="anotherimg" src="https://wallpapercave.com/wp/wp2446274.jpg" alt="">
@@ -228,6 +318,27 @@ opacity: 0.7;
           <img class="img3" src="https://cdn.xl.thumbs.canstockphoto.com/aim-icon-flat-aim-white-flat-simple-icon-with-shadow-clip-art-vector_csp65769269.jpg" alt="">
           <h1 class="rt3">"From Ordinary to Extraordinary Wealth: Our Mission is to Make You Rich"</h1>
       </div>
-  
+      <div class="company-info">
+        <p class="styled-text ">"𝐀𝐬 𝐚 𝐭𝐫𝐚𝐝𝐞𝐫, 𝐈 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭 𝐨𝐩𝐩𝐨𝐫𝐭𝐮𝐧𝐢𝐭𝐢𝐞𝐬 𝐭𝐨 𝐦𝐲 𝐜𝐥𝐢𝐞𝐧𝐭𝐬 𝐰𝐢𝐭𝐡 𝐚 𝐠𝐮𝐚𝐫𝐚𝐧𝐭𝐞𝐞𝐝 𝐫𝐞𝐭𝐮𝐫𝐧 𝐨𝐟 1𝟎% 𝐩𝐞𝐫 𝐦𝐨𝐧𝐭𝐡. 𝐌𝐲 𝐩𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝐞𝐧𝐬𝐮𝐫𝐞𝐬 𝐭𝐡𝐚𝐭 𝐦𝐲 𝐜𝐥𝐢𝐞𝐧𝐭𝐬 𝐫𝐞𝐜𝐞𝐢𝐯𝐞 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐚𝐧𝐝 𝐫𝐞𝐭𝐮𝐫𝐧𝐬 𝐨𝐧 𝐭𝐡𝐞𝐢𝐫 𝐢𝐧𝐯𝐞𝐬𝐭𝐦𝐞𝐧𝐭𝐬. 𝐈 𝐚𝐦 𝐜𝐨𝐦𝐦𝐢𝐭𝐭𝐞𝐝 𝐭𝐨 𝐝𝐞𝐥𝐢𝐯𝐞𝐫𝐢𝐧𝐠 𝐫𝐞𝐬𝐮𝐥𝐭𝐬 𝐚𝐧𝐝 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐢𝐧𝐠 𝐚 𝐡𝐢𝐠𝐡 𝐥𝐞𝐯𝐞𝐥 𝐨𝐟 𝐭𝐫𝐚𝐧𝐬𝐩𝐚𝐫𝐞𝐧𝐜𝐲 𝐢𝐧 𝐚𝐥𝐥 𝐦𝐲 𝐝𝐞𝐚𝐥𝐢𝐧𝐠𝐬. 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞 𝐭𝐨𝐝𝐚𝐲 𝐭𝐨 𝐥𝐞𝐚𝐫𝐧 𝐦𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐡𝐨𝐰 𝐈 𝐜𝐚𝐧 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐚𝐜𝐡𝐢𝐞𝐯𝐞 𝐲𝐨𝐮𝐫 𝐟𝐢𝐧𝐚𝐧𝐜𝐢𝐚𝐥 𝐠𝐨𝐚𝐥𝐬."</p>
+
+    </div>
+    <div class="row">
+        <p style="  color: #000000;padding: 0px; margin: 0px; background-color: white; padding-top: 5px;">ᵂᵉ ᵍᵘᵃʳᵃⁿᵗᵉᵉ ᵃ ʳᵉᵗᵘʳⁿ ᵒᶠ 10% ᵒⁿ ʸᵒᵘʳ ⁱⁿᵛᵉˢᵗᵐᵉⁿᵗ.ᴺᵒ ʳⁱˢᵏˢ, ᵒⁿˡʸ ᵍᵉⁿᵘⁱⁿᵉ ᵖʳᵒᶠⁱᵗˢ.</p>
+    </div>
+    <div class="row">
+
+<div class="col">
     
+    <div class="card">
+        <img src="images/lokesh.jpg" alt="" class="founderimg">
+    
+  
+        <h4class="card-title">LOKESH D N
+        <p class="card-text"> Founder</p>
+        <a href="https://www.instagram.com/money_4r_you/?igshid=ZGUzMzM3NWJiOQ%3D%3D"><img src="images/instalogo.jpg" alt="" class="instalogo"></a>
+
+</h4class="card-title"></div>
+
+</div>
+    </div>
 </body></html>
